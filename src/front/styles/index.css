@@ -1,3 +1,55 @@
 /* 
     General Styles used on every website (Don't Repeat Yourself)
 */
+
+.nav {   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.nav-items {
+    list-style-type: none;
+    margin: 1rem;
+    /* padding: 1rem; */
+}
+
+
+
+.video {
+	position: relative;
+	width: 100%;
+	height: 100vh; /* Asegúrate de ajustar esto según lo necesario */
+	overflow: hidden;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/* background: rgba(0, 0, 0, 0.5); */
+    
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#828c95+0,28343b+99,28343b+99,b5bdc8+100&0.5+1,1+100 */
+    background: -moz-linear-gradient(-45deg,  rgba(130,140,149,0.5) 0%, rgba(129,139,148,0.5) 1%, rgba(40,52,59,0.99) 99%, rgba(181,189,200,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(130,140,149,0.5) 0%,rgba(129,139,148,0.5) 1%,rgba(40,52,59,0.99) 99%,rgba(181,189,200,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(130,140,149,0.5) 0%,rgba(129,139,148,0.5) 1%,rgba(40,52,59,0.99) 99%,rgba(181,189,200,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80828c95', endColorstr='#b5bdc8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.video video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover; /* Esto asegura que el video cubra todo el contenedor */
+	z-index: -1; /* Asegura que el video esté detrás del contenido */
+}
+
