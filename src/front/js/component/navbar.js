@@ -9,22 +9,16 @@ export const Navbar = () => {
 					<span className="navbar-brand mb-0 h1">SEBASTIAN FRETES</span>
 				</Link>
 				<div className="ml-auto ">
-				<Link to="/demo">
-						<button className="btn btn-primary" style={{margin: '0 0.5rem'}}>ABOUT</button>
+					<Link to="/info">
+						<button className="btn btn-primary" style={{ margin: '0 0.5rem' }}>ABOUT</button>
 					</Link>
 					<Link to="/">
-						<button className="btn btn-primary" style={{margin: '0 0.5rem'}}>PROJECTS</button>
+						<button className="btn btn-primary" style={{ margin: '0 0.5rem' }}>PROJECTS</button>
 					</Link>
 					<Link to="/">
-						<button className="btn btn-primary" style={{margin: '0 0.5rem'}}>CONTACT</button>
+						<button className="btn btn-primary" style={{ margin: '0 0.5rem' }}>CONTACT</button>
 					</Link>
 				</div>
-				
-				{/* <div className="ml-auto">
-					<Link to="/demo">
-						<button className="btn btn-primary">Check the Context in action</button>
-					</Link>
-				</div> */}
 			</div>
 		</nav>
 	);
