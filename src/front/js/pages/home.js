@@ -20,10 +20,10 @@ export const Home = () => {
 					</video>
 				</div>
 			</div>
-			<div className="text-center">
+			{/* <div className="text-center">
 				<p>Hi! My name is Sebastian Fretes. I'm a full-stack software developer based in Asunción, Paraguay. I like developing cool and useful software by leveraging modern technologies!
 					Feel free to view some of my projects and their code. You can also take a look at my Resume or reach out to me via email.</p>
-			</div>
+			</div> */}
 		</>
 	);
 };

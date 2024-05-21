@@ -6,17 +6,20 @@ export const Navbar = () => {
 		<nav className="navbar navbar-light bg-light">
 			<div className="container">
 				<Link to="/">
-					<span className="navbar-brand mb-0 h1">SEBASTIAN FRETES</span>
+					<button className="btn" style={{ fontSize: '1.4rem', fontWeight: '700', backgroundColor: '#F9F9F9' }}>SEBASTIAN FRETES</button>
 				</Link>
 				<div className="ml-auto ">
 					<Link to="/info">
-						<button className="btn btn-primary" style={{ margin: '0 0.5rem' }}>ABOUT</button>
+						<button className="btn-grey">ABOUT</button>
 					</Link>
-					<Link to="/">
-						<button className="btn btn-primary" style={{ margin: '0 0.5rem' }}>PROJECTS</button>
+					<Link to="/projects">
+						<button className="btn-grey">PROJECTS</button>
 					</Link>
-					<Link to="/">
-						<button className="btn btn-primary" style={{ margin: '0 0.5rem' }}>CONTACT</button>
+					<Link to="/certifications">
+						<button className="btn-grey">CERTIFICATIONS</button>
+					</Link>
+					<Link to="/contact">
+						<button className="btn-grey">CONTACT</button>
 					</Link>
 				</div>
 			</div>

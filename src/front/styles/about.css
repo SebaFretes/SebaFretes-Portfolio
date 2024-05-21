@@ -1,0 +1,39 @@
+.own-container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.about-content {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.tech-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  font-size: 5em;
+}
+
+.tech-item:hover {
+  background-color: #d0d0d0;
+}
