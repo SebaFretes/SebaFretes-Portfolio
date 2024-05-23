@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/about.css';
-import { SiHtml5, SiCss3, SiBootstrap, SiSass, SiJavascript, SiReact, SiPython, SiFlask, SiSqlalchemy, SiFirebase, SiGit, SiGithub } from "react-icons/si";
+import { SiHtml5, SiCss3, SiBootstrap, SiSass, SiJavascript, SiReact, SiPython, SiFlask, SiSqlalchemy, SiFirebase, SiVite, SiGit, SiGithub } from "react-icons/si";
 import { Link } from "react-router-dom";
 
 const iconComponents = {
@@ -14,6 +14,7 @@ const iconComponents = {
     Flask: <SiFlask />,
     SqlAlchemy: <SiSqlalchemy />,
     Firebase: <SiFirebase />,
+    Vite: <SiVite />,
     Git: <SiGit />,
     Github: <SiGithub />
 }
@@ -22,7 +23,7 @@ const getTecnologiesIcon = (tecn) => {
     return iconComponents[tecn];
 }
 
-const tecn = ['Html', 'Css', 'Bootstrap', 'Sass', 'Javascript', 'React', 'Python', 'Flask', 'SqlAlchemy', 'Firebase', 'Git', 'Github'];
+const tecn = ['Html', 'Css', 'Bootstrap', 'Sass', 'Javascript', 'React', 'Python', 'Flask', 'SqlAlchemy', 'Firebase', 'Vite', 'Git', 'Github'];
 
 export const Info = () => {
     return (
