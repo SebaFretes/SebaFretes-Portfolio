@@ -9,7 +9,6 @@
 [build.lifecycle]
   [[build.lifecycle.onbuild]]
     commands = [
-      "pip install pipenv",
       "pipenv install",
       "npm install"
     ]
