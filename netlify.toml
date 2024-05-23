@@ -1,0 +1,20 @@
+[build]
+  base = "."
+  publish = "build"
+  command = "npm install && npm run build"
+
+[build.environment]
+  PIPENV_VENV_IN_PROJECT = true
+
+[build.lifecycle]
+  [[build.lifecycle.onbuild]]
+    commands = [
+      "pip install pipenv",
+      "pipenv install",
+      "npm install"
+    ]
+
+  [[build.lifecycle.onbuild]]
+    commands = [
+      "npm run build"
+    ]
