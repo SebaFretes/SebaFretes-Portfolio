@@ -52,11 +52,11 @@ export const Contact = () => {
         <div className="container">
             <div style={{ width: '100%' }}> </div>
             {/* backgroundColor: '#252525' */}
-            <form onSubmit={emailFetch} style={{ margin: '1rem auto', backgroundColor: '#252525', width: '90%', padding: '2rem', justifyContent: 'center', alignItems: 'center', maxWidth: '50rem', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', boxSizing: 'border-box', color: '#000' }}>
+            <form onSubmit={emailFetch} style={{ margin: '1rem auto', backgroundColor: '#334154', width: '70%', padding: '2rem', justifyContent: 'center', alignItems: 'center', maxWidth: '50rem', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', boxSizing: 'border-box', color: '#000' }}>
 
                 <h3 style={{ textAlign: 'center', marginBottom: '0.5rem', color: '#000' }}>CONTACT</h3>
                 <div style={{ marginBottom: '1rem' }}>
-                    <label htmlFor="name">NAME</label>
+                    <label htmlFor="name" style={{ fontWeight: '600' }}>NAME</label>
                     <input
                         type="text"
                         name="name"
@@ -67,7 +67,7 @@ export const Contact = () => {
                 </div>
 
                 <div style={{ marginBottom: '1rem' }}>
-                    <label htmlFor="email">EMAIL</label>
+                    <label htmlFor="email" style={{ fontWeight: '600' }}>EMAIL</label>
                     <input
                         type="email"
                         name="email"
@@ -78,7 +78,7 @@ export const Contact = () => {
                 </div>
 
                 <div style={{ marginBottom: '1rem' }}>
-                    <label htmlFor="message">MESSAGE</label>
+                    <label htmlFor="message" style={{ fontWeight: '600' }}>MESSAGE</label>
                     <textarea
                         rows="6"
                         name="message"
