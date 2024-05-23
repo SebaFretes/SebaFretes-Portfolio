@@ -102,3 +102,14 @@ button {
 	z-index: -1; /* Asegura que el video esté detrás del contenido */
 }
 
+.icon-link {
+    margin: 0 1rem;
+    font-size: 2rem;
+    color: inherit; /* Ensure icons keep their default colors */
+}
+
+.icon-link:hover {
+    color: inherit; /* Ensure icons keep their default colors on hover */
+}
+
+

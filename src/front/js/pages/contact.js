@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { SiLinkedin, SiGithub, SiInstagram } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 export const Contact = () => {
     const [name, setName] = useState('')
@@ -51,9 +53,8 @@ export const Contact = () => {
     return (
         <div className="container">
             <div style={{ width: '100%' }}> </div>
-            {/* backgroundColor: '#252525' */}
-            <form onSubmit={emailFetch} style={{ margin: '1rem auto', backgroundColor: '#334154', width: '70%', padding: '2rem', justifyContent: 'center', alignItems: 'center', maxWidth: '50rem', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', boxSizing: 'border-box', color: '#000' }}>
 
+            <form onSubmit={emailFetch} style={{ margin: '1rem auto', backgroundColor: '#334154', width: '70%', padding: '2rem', justifyContent: 'center', alignItems: 'center', maxWidth: '50rem', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', boxSizing: 'border-box', color: '#000' }}>
                 <h3 style={{ textAlign: 'center', marginBottom: '0.5rem', color: '#000' }}>CONTACT</h3>
                 <div style={{ marginBottom: '1rem' }}>
                     <label htmlFor="name" style={{ fontWeight: '600' }}>NAME</label>
@@ -89,6 +90,13 @@ export const Contact = () => {
                 </div>
                 <button type="submit" className='btn-grey'>SEND</button>
             </form>
+
+            <div style={{ display: 'flex', justifyContent: 'center', marginTop: '1rem' }}>
+                <a href='https://www.linkedin.com/in/jsebastianfretes/' target="_blank" className="icon-link"><SiLinkedin /></a>
+                <a href='https://github.com/SebaFretes/' target="_blank" className="icon-link"><SiGithub /></a>
+                <a href='https://www.instagram.com/sebafretes_/' target="_blank" className="icon-link"><SiInstagram /></a>
+            </div>
+
         </div>
     )
 }

@@ -29,7 +29,7 @@ export const Info = () => {
             <div className='own-container'>
                 <h1 className='text-center'>ABOUT ME</h1>
                 <p>
-Hi! I'm Sebastian Fretes, a Web Developer based in Asunción, Paraguay. I like programming interesting, functional and efficient software by utilizing current technologies. My passion for technology led me to obtain a Full-Stack development certification, where I learned and practiced Frontend and Backend technologies. Feel free to view some of my showcased projects and their code. Additionally, you can take a look at my CV or reach out to me via email. Native Spanish speaker, but I also communicate in English and Portuguese.</p>
+                    Hi! I'm Sebastian Fretes, a Web Developer based in Asunción, Paraguay. I like programming interesting, functional and efficient software by utilizing current technologies. My passion for technology led me to obtain a Full-Stack development certification, where I learned and practiced Frontend and Backend technologies. Feel free to view some of my showcased projects and their code. Additionally, you can take a look at my CV or reach out to me via email. Native Spanish speaker, but I also communicate in English and Portuguese.</p>
                 <div>
                     <h1 className="text-center">MY TECH STACK</h1>
                     <div className="tech-stack">
