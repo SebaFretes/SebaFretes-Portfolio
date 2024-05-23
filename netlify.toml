@@ -4,7 +4,7 @@
   command = "npm install && npm run build"
 
 [build.environment]
-  PIPENV_VENV_IN_PROJECT = true
+  PIPENV_VENV_IN_PROJECT = "true"
 
 [build.lifecycle]
   [[build.lifecycle.onbuild]]
