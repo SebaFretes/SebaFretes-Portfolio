@@ -71,7 +71,7 @@ export const Projects = () => {
                             <div className="card-body">
                                 <h5 className="card-title">Asunción Rock & Pop Festival</h5>
                                 <p className="card-text">This was my first test web page, where I put my HTML and CSS knowledge into practice.</p>
-                                <p className="card-text"><small className="text-muted">HTML, CSS</small></p>
+                                <p className="card-text"><small className="text-muted">HTML, CSS, Javascript</small></p>
                                 <a href='https://sebafretesasuncionrockpopfestival.netlify.app/' target="_blank">View Demo</a>
                             </div>
                         </div>
