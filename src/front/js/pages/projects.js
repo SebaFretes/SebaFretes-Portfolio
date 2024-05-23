@@ -15,7 +15,7 @@ export const Projects = () => {
                 <div className="card mb-3" style={{ maxWidth: '1200px' }}>
                     <div className="row g-0">
                         <div className="col-md-4">
-                            <a href='https://sample-service-name-pv43.onrender.com/' target="_blank">
+                            <a href='https://sample-service-name-hdsr.onrender.com/' target="_blank">
                                 <img src={Travelo} className="img-fluid rounded-start" alt="..." />
                             </a>
                         </div>
@@ -24,7 +24,7 @@ export const Projects = () => {
                                 <h5 className="card-title">Travelo</h5>
                                 <p className="card-text">Travelo is a web application developed for a travel agency. It allows users to register, explore, and book hotels, tours, and vacation packages. Designed to facilitate travel planning, Travelo offers an intuitive and comprehensive experience for all travelers.</p>
                                 <p className="card-text">Stack:<span className="text-muted"> HTML, CSS, Bootstrap, React, Python, Flask, SqlAlchemy</span></p>
-                                <a href='https://sample-service-name-pv43.onrender.com/' target="_blank">View Demo</a>
+                                <a href='https://sample-service-name-hdsr.onrender.com/' target="_blank">View Demo</a>
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ export const Projects = () => {
 
                 <div className="card mb-3" style={{ maxWidth: '1200px' }}>
                     <div className="row g-0">
-                    <div className="col-md-4">
+                        <div className="col-md-4">
                             <a href='https://sebafretesasuncionrockpopfestival.netlify.app/' target="_blank">
                                 <img src={Festival} className="img-fluid rounded-start" alt="..." />
                             </a>
@@ -86,7 +86,7 @@ export const Projects = () => {
 
                 <div className="card mb-3" style={{ maxWidth: '1200px' }}>
                     <div className="row g-0">
-                    <div className="col-md-4">
+                        <div className="col-md-4">
                             <a href='https://primerproyectowebsebafretes.netlify.app/' target="_blank">
                                 <img src={FirstProyect} className="img-fluid rounded-start" alt="..." />
                             </a>
