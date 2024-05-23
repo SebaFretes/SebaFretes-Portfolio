@@ -63,8 +63,6 @@ button {
     /* padding: 1rem; */
 }
 
-
-
 .video {
 	position: relative;
 	width: 100%;
@@ -111,5 +109,3 @@ button {
 .icon-link:hover {
     color: inherit; /* Ensure icons keep their default colors on hover */
 }
-
-
