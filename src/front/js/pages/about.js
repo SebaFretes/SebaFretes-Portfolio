@@ -2,7 +2,7 @@ import React from 'react';
 import '../../styles/about.css';
 import { SiHtml5, SiCss3, SiBootstrap, SiSass, SiJavascript, SiReact, SiPython, SiFlask, SiSqlalchemy, SiFirebase, SiVite, SiGit, SiGithub } from "react-icons/si";
 import { Link } from "react-router-dom";
-import Resume from '../../img/Resume.pdf';
+import resume from '../../img/resume.pdf';
 
 const iconComponents = {
     Html: <SiHtml5 />,
@@ -32,7 +32,7 @@ export const Info = () => {
             <div className='own-container'>
                 <h1 className='text-center'>ABOUT ME</h1>
                 <p>
-                    Hi! I'm Sebastian Fretes, a Web Developer based in Asunción, Paraguay. I enjoy programming interesting, functional, and efficient software using current technologies. My passion for technology led me to obtain a Full-Stack development certification, where I acquired, practiced, and improved my skills in both Frontend and Backend technologies. Feel free to view some of my showcased projects and their code. Additionally, you can take a look at my <Link to={Resume} target="_blank">Resume</Link> or reach out to me via email. I am a native Spanish speaker, but I also communicate in English and Portuguese.</p>
+                    Hi! I'm Sebastian Fretes, a Web Developer based in Asunción, Paraguay. I enjoy programming interesting, functional, and efficient software using current technologies. My passion for technology led me to obtain a Full-Stack development certification, where I acquired, practiced, and improved my skills in both Frontend and Backend technologies. Feel free to view some of my showcased projects and their code. Additionally, you can take a look at my <Link to={resume} target="_blank">Resume</Link> or reach out to me via email. I am a native Spanish speaker, but I also communicate in English and Portuguese.</p>
                 <div>
                     <h1 className="text-center">MY TECH STACK</h1>
                     <div className="tech-stack">
